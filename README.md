@@ -41,12 +41,14 @@ ForceType 'application/json'
 
 ### Verify 'apple-app-site-association'
 Can visit the link like as below:
+
 https://linkingappsetup.domain.com/apple-app-site-association
+
 https://linkingappsetup.domain.com/.well-known/apple-app-site-association
 
-Note:Setup SSL would be better(Guide)[https://github.com/oliguo/Server_Deployment/blob/master/XAMPP.md#ssl-setup-with-xamppauthorized-with-godaddy]
+Note:Setup SSL would be better[Guide](https://github.com/oliguo/Server_Deployment/blob/master/XAMPP.md#ssl-setup-with-xamppauthorized-with-godaddy)
 
-And can verify on (Apple App Site Association (AASA) Validator)[https://branch.io/resources/aasa-validator/]
+And can verify on [Apple App Site Association (AASA) Validator](https://branch.io/resources/aasa-validator/)
 
 ### Linking Program Page(Use PHP for sample)
 ```php
@@ -181,7 +183,7 @@ RewriteRule ^(.*)$ index.php/$1 [L]
 
 https://linkingappsetup.domain.com/page_1/data/123
 
-And can check with (App Search API Validation Tool)[https://search.developer.apple.com/appsearch-validation-tool/]
+And can check with [App Search API Validation Tool](https://search.developer.apple.com/appsearch-validation-tool/)
 
 Reference:
 
